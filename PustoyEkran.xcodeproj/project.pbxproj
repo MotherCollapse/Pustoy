@@ -16,6 +16,7 @@
 		54F51CB71C9CB40400F134DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F51CB51C9CB40400F134DD /* LaunchScreen.storyboard */; };
 		54F51CC21C9CB40500F134DD /* PustoyEkranTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F51CC11C9CB40500F134DD /* PustoyEkranTests.m */; };
 		54F51CCD1C9CB40500F134DD /* PustoyEkranUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F51CCC1C9CB40500F134DD /* PustoyEkranUITests.m */; };
+		54F51CDB1C9CB60700F134DD /* Pustoy in Resources */ = {isa = PBXBuildFile; fileRef = 54F51CDA1C9CB60700F134DD /* Pustoy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		54F51CC81C9CB40500F134DD /* PustoyEkranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PustoyEkranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F51CCC1C9CB40500F134DD /* PustoyEkranUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PustoyEkranUITests.m; sourceTree = "<group>"; };
 		54F51CCE1C9CB40500F134DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F51CDA1C9CB60700F134DD /* Pustoy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pustoy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				54F51CB51C9CB40400F134DD /* LaunchScreen.storyboard */,
 				54F51CB81C9CB40400F134DD /* Info.plist */,
 				54F51CA41C9CB40400F134DD /* Supporting Files */,
+				54F51CDA1C9CB60700F134DD /* Pustoy */,
 			);
 			path = PustoyEkran;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			files = (
 				54F51CB71C9CB40400F134DD /* LaunchScreen.storyboard in Resources */,
 				54F51CB41C9CB40400F134DD /* Assets.xcassets in Resources */,
+				54F51CDB1C9CB60700F134DD /* Pustoy in Resources */,
 				54F51CB21C9CB40400F134DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +425,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MotherCollapse.PustoyEkran;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -432,6 +437,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MotherCollapse.PustoyEkran;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
