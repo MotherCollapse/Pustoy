@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F51CA61C9CB40400F134DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F51CA51C9CB40400F134DD /* main.m */; };
+		54F51CA91C9CB40400F134DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F51CA81C9CB40400F134DD /* AppDelegate.m */; };
+		54F51CAC1C9CB40400F134DD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F51CAB1C9CB40400F134DD /* MasterViewController.m */; };
+		54F51CAF1C9CB40400F134DD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F51CAE1C9CB40400F134DD /* DetailViewController.m */; };
+		54F51CB21C9CB40400F134DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F51CB01C9CB40400F134DD /* Main.storyboard */; };
+		54F51CB41C9CB40400F134DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F51CB31C9CB40400F134DD /* Assets.xcassets */; };
+		54F51CB71C9CB40400F134DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F51CB51C9CB40400F134DD /* LaunchScreen.storyboard */; };
+		54F51CC21C9CB40500F134DD /* PustoyEkranTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F51CC11C9CB40500F134DD /* PustoyEkranTests.m */; };
+		54F51CCD1C9CB40500F134DD /* PustoyEkranUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F51CCC1C9CB40500F134DD /* PustoyEkranUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F51CBE1C9CB40500F134DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F51C991C9CB40400F134DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F51CA01C9CB40400F134DD;
+			remoteInfo = PustoyEkran;
+		};
+		54F51CC91C9CB40500F134DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F51C991C9CB40400F134DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F51CA01C9CB40400F134DD;
+			remoteInfo = PustoyEkran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54F51CA11C9CB40400F134DD /* PustoyEkran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PustoyEkran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F51CA51C9CB40400F134DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54F51CA71C9CB40400F134DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54F51CA81C9CB40400F134DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54F51CAA1C9CB40400F134DD /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		54F51CAB1C9CB40400F134DD /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		54F51CAD1C9CB40400F134DD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		54F51CAE1C9CB40400F134DD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		54F51CB11C9CB40400F134DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54F51CB31C9CB40400F134DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F51CB61C9CB40400F134DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54F51CB81C9CB40400F134DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F51CBD1C9CB40500F134DD /* PustoyEkranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PustoyEkranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F51CC11C9CB40500F134DD /* PustoyEkranTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PustoyEkranTests.m; sourceTree = "<group>"; };
+		54F51CC31C9CB40500F134DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F51CC81C9CB40500F134DD /* PustoyEkranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PustoyEkranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F51CCC1C9CB40500F134DD /* PustoyEkranUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PustoyEkranUITests.m; sourceTree = "<group>"; };
+		54F51CCE1C9CB40500F134DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F51C9E1C9CB40400F134DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F51CBA1C9CB40500F134DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F51CC51C9CB40500F134DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F51C981C9CB40400F134DD = {
+			isa = PBXGroup;
+			children = (
+				54F51CA31C9CB40400F134DD /* PustoyEkran */,
+				54F51CC01C9CB40500F134DD /* PustoyEkranTests */,
+				54F51CCB1C9CB40500F134DD /* PustoyEkranUITests */,
+				54F51CA21C9CB40400F134DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F51CA21C9CB40400F134DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F51CA11C9CB40400F134DD /* PustoyEkran.app */,
+				54F51CBD1C9CB40500F134DD /* PustoyEkranTests.xctest */,
+				54F51CC81C9CB40500F134DD /* PustoyEkranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F51CA31C9CB40400F134DD /* PustoyEkran */ = {
+			isa = PBXGroup;
+			children = (
+				54F51CA71C9CB40400F134DD /* AppDelegate.h */,
+				54F51CA81C9CB40400F134DD /* AppDelegate.m */,
+				54F51CAA1C9CB40400F134DD /* MasterViewController.h */,
+				54F51CAB1C9CB40400F134DD /* MasterViewController.m */,
+				54F51CAD1C9CB40400F134DD /* DetailViewController.h */,
+				54F51CAE1C9CB40400F134DD /* DetailViewController.m */,
+				54F51CB01C9CB40400F134DD /* Main.storyboard */,
+				54F51CB31C9CB40400F134DD /* Assets.xcassets */,
+				54F51CB51C9CB40400F134DD /* LaunchScreen.storyboard */,
+				54F51CB81C9CB40400F134DD /* Info.plist */,
+				54F51CA41C9CB40400F134DD /* Supporting Files */,
+			);
+			path = PustoyEkran;
+			sourceTree = "<group>";
+		};
+		54F51CA41C9CB40400F134DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54F51CA51C9CB40400F134DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54F51CC01C9CB40500F134DD /* PustoyEkranTests */ = {
+			isa = PBXGroup;
+			children = (
+				54F51CC11C9CB40500F134DD /* PustoyEkranTests.m */,
+				54F51CC31C9CB40500F134DD /* Info.plist */,
+			);
+			path = PustoyEkranTests;
+			sourceTree = "<group>";
+		};
+		54F51CCB1C9CB40500F134DD /* PustoyEkranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54F51CCC1C9CB40500F134DD /* PustoyEkranUITests.m */,
+				54F51CCE1C9CB40500F134DD /* Info.plist */,
+			);
+			path = PustoyEkranUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F51CA01C9CB40400F134DD /* PustoyEkran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F51CD11C9CB40500F134DD /* Build configuration list for PBXNativeTarget "PustoyEkran" */;
+			buildPhases = (
+				54F51C9D1C9CB40400F134DD /* Sources */,
+				54F51C9E1C9CB40400F134DD /* Frameworks */,
+				54F51C9F1C9CB40400F134DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PustoyEkran;
+			productName = PustoyEkran;
+			productReference = 54F51CA11C9CB40400F134DD /* PustoyEkran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54F51CBC1C9CB40500F134DD /* PustoyEkranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F51CD41C9CB40500F134DD /* Build configuration list for PBXNativeTarget "PustoyEkranTests" */;
+			buildPhases = (
+				54F51CB91C9CB40500F134DD /* Sources */,
+				54F51CBA1C9CB40500F134DD /* Frameworks */,
+				54F51CBB1C9CB40500F134DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F51CBF1C9CB40500F134DD /* PBXTargetDependency */,
+			);
+			name = PustoyEkranTests;
+			productName = PustoyEkranTests;
+			productReference = 54F51CBD1C9CB40500F134DD /* PustoyEkranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54F51CC71C9CB40500F134DD /* PustoyEkranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F51CD71C9CB40500F134DD /* Build configuration list for PBXNativeTarget "PustoyEkranUITests" */;
+			buildPhases = (
+				54F51CC41C9CB40500F134DD /* Sources */,
+				54F51CC51C9CB40500F134DD /* Frameworks */,
+				54F51CC61C9CB40500F134DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F51CCA1C9CB40500F134DD /* PBXTargetDependency */,
+			);
+			name = PustoyEkranUITests;
+			productName = PustoyEkranUITests;
+			productReference = 54F51CC81C9CB40500F134DD /* PustoyEkranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F51C991C9CB40400F134DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Александр Герасимов";
+				TargetAttributes = {
+					54F51CA01C9CB40400F134DD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					54F51CBC1C9CB40500F134DD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 54F51CA01C9CB40400F134DD;
+					};
+					54F51CC71C9CB40500F134DD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 54F51CA01C9CB40400F134DD;
+					};
+				};
+			};
+			buildConfigurationList = 54F51C9C1C9CB40400F134DD /* Build configuration list for PBXProject "PustoyEkran" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54F51C981C9CB40400F134DD;
+			productRefGroup = 54F51CA21C9CB40400F134DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F51CA01C9CB40400F134DD /* PustoyEkran */,
+				54F51CBC1C9CB40500F134DD /* PustoyEkranTests */,
+				54F51CC71C9CB40500F134DD /* PustoyEkranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F51C9F1C9CB40400F134DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F51CB71C9CB40400F134DD /* LaunchScreen.storyboard in Resources */,
+				54F51CB41C9CB40400F134DD /* Assets.xcassets in Resources */,
+				54F51CB21C9CB40400F134DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F51CBB1C9CB40500F134DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F51CC61C9CB40500F134DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F51C9D1C9CB40400F134DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F51CA91C9CB40400F134DD /* AppDelegate.m in Sources */,
+				54F51CAC1C9CB40400F134DD /* MasterViewController.m in Sources */,
+				54F51CA61C9CB40400F134DD /* main.m in Sources */,
+				54F51CAF1C9CB40400F134DD /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F51CB91C9CB40500F134DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F51CC21C9CB40500F134DD /* PustoyEkranTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F51CC41C9CB40500F134DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F51CCD1C9CB40500F134DD /* PustoyEkranUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F51CBF1C9CB40500F134DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F51CA01C9CB40400F134DD /* PustoyEkran */;
+			targetProxy = 54F51CBE1C9CB40500F134DD /* PBXContainerItemProxy */;
+		};
+		54F51CCA1C9CB40500F134DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F51CA01C9CB40400F134DD /* PustoyEkran */;
+			targetProxy = 54F51CC91C9CB40500F134DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54F51CB01C9CB40400F134DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F51CB11C9CB40400F134DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54F51CB51C9CB40400F134DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F51CB61C9CB40400F134DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54F51CCF1C9CB40500F134DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54F51CD01C9CB40500F134DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54F51CD21C9CB40500F134DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PustoyEkran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotherCollapse.PustoyEkran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54F51CD31C9CB40500F134DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PustoyEkran/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotherCollapse.PustoyEkran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54F51CD51C9CB40500F134DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PustoyEkranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotherCollapse.PustoyEkranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PustoyEkran.app/PustoyEkran";
+			};
+			name = Debug;
+		};
+		54F51CD61C9CB40500F134DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PustoyEkranTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotherCollapse.PustoyEkranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PustoyEkran.app/PustoyEkran";
+			};
+			name = Release;
+		};
+		54F51CD81C9CB40500F134DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PustoyEkranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotherCollapse.PustoyEkranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PustoyEkran;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		54F51CD91C9CB40500F134DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PustoyEkranUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MotherCollapse.PustoyEkranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PustoyEkran;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F51C9C1C9CB40400F134DD /* Build configuration list for PBXProject "PustoyEkran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F51CCF1C9CB40500F134DD /* Debug */,
+				54F51CD01C9CB40500F134DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F51CD11C9CB40500F134DD /* Build configuration list for PBXNativeTarget "PustoyEkran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F51CD21C9CB40500F134DD /* Debug */,
+				54F51CD31C9CB40500F134DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54F51CD41C9CB40500F134DD /* Build configuration list for PBXNativeTarget "PustoyEkranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F51CD51C9CB40500F134DD /* Debug */,
+				54F51CD61C9CB40500F134DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54F51CD71C9CB40500F134DD /* Build configuration list for PBXNativeTarget "PustoyEkranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F51CD81C9CB40500F134DD /* Debug */,
+				54F51CD91C9CB40500F134DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F51C991C9CB40400F134DD /* Project object */;
+}
